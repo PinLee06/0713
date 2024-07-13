@@ -9,7 +9,7 @@ jobs:
         steps: 
         - uses: actions/checkout@v2
         - name: Run test.py
-         run: |
+          run: |
            python3 test.py
-           
+
 
