@@ -11,7 +11,7 @@ jobs:
      
         - name: Run send_mail.py
           run: |
-           python3 send_mail.py
+            python3 send_mail.py
        
     build2:
         name: do job2
