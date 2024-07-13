@@ -15,7 +15,7 @@ jobs:
        
     build2:
         name: do job2
-        runs-on: ubuntu-latast
+        runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v2
         - name: Run test 2 py
